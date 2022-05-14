@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All tests" parallel="classes" thread-count="3" configfailurepolicy="continue">
+    <test verbose="1" name="Smoke tests" annotations="JDK">
+        <classes>
+            <class name="com.vangoghmuseum.tests.VanGoghMuseumTests"/>
+        </classes>
+    </test>
+</suite>
