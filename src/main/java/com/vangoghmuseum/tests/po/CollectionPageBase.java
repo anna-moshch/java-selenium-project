@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-import static java.lang.Thread.sleep;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class CollectionPageBase implements CollectionPage {
@@ -84,7 +83,7 @@ public abstract class CollectionPageBase implements CollectionPage {
         return driver.waitElementToBeDisplayed(By.xpath(filterList + "//*[@aria-label='Open filters']"));
     }
 
-    protected void scrollToViewAllResults(int count) {
+    private void scrollToViewAllResults(int count) {
         for (int i = 1; i <= count; i++) {
             driver.scrollDown();
             if (getArtObjectsInResults().size() >= count) {
