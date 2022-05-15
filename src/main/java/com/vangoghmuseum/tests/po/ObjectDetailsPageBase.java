@@ -30,6 +30,4 @@ public abstract class ObjectDetailsPageBase implements ObjectDetailsPage {
         }
         return result;
     }
-
-
 }
