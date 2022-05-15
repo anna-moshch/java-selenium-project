@@ -10,7 +10,7 @@ Anna Moshchenok
 
 
 # Preconditions
-Need to have JAVA installed in you system non lower that version 8 (if you use macOS run $ brew install --cask java8)
+Need to have JAVA version 8 installed in you system(if you use macOS run $ brew install --cask java8)
 
 Need to have Maven installed (for MacOS run $ brew install maven)
 
